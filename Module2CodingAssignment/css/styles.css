@@ -1,0 +1,78 @@
+/********** Base Styles **********/
+* {
+	box-sizing: border-box;
+	font-family: "Times New Roman", Times, serif;
+}
+
+h1 {
+	font-size: 175%;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+h2 {
+	font-size: 125%;
+}
+
+section {
+	border: 1px solid black;
+	position: relative;
+	background-color: gray;
+	color: white;
+	margin: 1%;
+	padding: 1%;
+}
+
+.title {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	border: 1px solid black;
+	margin: 0px;
+}
+
+#s1h {
+	background-color: red;
+	color: black;
+}
+
+#s2h {
+	background-color: blue;
+	color: white;
+}
+
+#s3h {
+	background-color: yellow;
+	color: black;
+}
+
+/********** Small Devices **********/
+@media (max-width: 767px) {
+
+}
+
+/********** Medium Devices **********/
+@media (min-width: 768px) and (max-width: 991px) {
+	#s1 {
+		float: left;
+		width: 47%;
+	}
+
+	#s2 {
+		float: left;
+		width: 47%;
+	}
+
+	#s3 {
+		clear: left;
+		width: 96%;
+	}
+}
+
+/********** Large Styles **********/
+@media (min-width: 992px) {
+	section {
+		float: left;
+		width: 31.33%;
+	}
+}
